@@ -92,7 +92,7 @@ namespace Calculator
                 tempNumber = lastNumber / 100;
                 if (lastNumber != 0)
                     tempNumber *= lastNumber;
-                resultLabel.Content = tempNumber.ToString();
+                resultLabel.Content = lastNumber.ToString();
             }
         }
 
